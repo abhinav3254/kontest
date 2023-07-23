@@ -1,0 +1,22 @@
+<!-- <li *ngFor="let k of kontestArray">
+  {{k.name}}
+</li> -->
+
+<div *ngFor="let k of kontestArray">
+  <div class="main">
+    <div id="cFlex" class="second">
+      <!-- <img src="" alt="logo"> -->
+      <p class="p-name">{{k.name}}</p>
+    </div>
+    <div id="cFlex" class="time">
+      <!-- <p>{{k.start_time| date: 'MMM dd, yyyy'}}</p> -->
+      <p>{{k.start_time| date : 'MMM dd,yyyy' : "ITZ"}}</p>
+      <p>{{k.end_time| date: 'MMM dd, yyyy'}}</p>
+    </div>
+    <div id="cFlex" class="three">
+      <p>{{k.site}}</p>
+      <p>{{k.status}}</p>
+    </div>
+    <button (click)="myFun(k.url)">register</button>
+  </div>
+</div>

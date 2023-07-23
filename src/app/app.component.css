@@ -1,0 +1,48 @@
+.main {
+    width: 30%;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+    transition: box-shadow 0.4s;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.main:hover {
+    box-shadow: 10px 10px 10px grey;
+}
+
+#cFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 5px;
+}
+
+.p-name {
+    font-size: 2rem;
+    border: 1px solid green;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 1s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
