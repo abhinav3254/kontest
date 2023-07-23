@@ -1,6 +1,6 @@
 # Kontest
 
-android version of this application is available <a href="https://github.com/abhinav3254/Kontest-Android">
+android version of this application is available <a href="https://github.com/abhinav3254/Kontest-Android">Kontest Android </a>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
